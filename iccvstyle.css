@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #466368;
+    background: linear-gradient(to right bottom, #648880, #293f50);
+    height: 100vh       ;   
+}
+
+.header{
+    max-width: 100vw;
+    max-height: 90px;   
+    background-color: black;
+    border: none;
+    
+}
+
+.HeaderList{
+    list-style-type: NONE;
+    display: flex;
+    justify-content: space-around;
+    align-content: baseline;
+    text-decoration: none;
+}
+
+li{
+    border-radius: 5%;
+    padding: 25px;
+}
+
+li:hover{
+    background-color: rgb(121, 12, 131);
+    color: black;
+}
+
+
+abbr{
+    text-decoration: none;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.iccv{
+    font-weight: 800;
+}
+
+.MainBody{
+    font-family: 'Courier New', Courier, monospace;
+    margin:10px 5px 10px 10px;
+}
