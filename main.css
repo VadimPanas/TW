@@ -7,7 +7,7 @@
 body{
     background: #466368;
     background: linear-gradient(to right bottom, #648880, #293f50);
-    height: 100vh;   
+    height: 100wh;   
 }
 
 .header{
@@ -32,7 +32,7 @@ li{
 }
 
 li:hover{
-    background-color: white;
+    background-color: rgb(121, 12, 131);
     color: black;
 }
 
@@ -62,6 +62,55 @@ a {
     transform: translate(-50%, -50%);
 }
 
-.info{
+.Info{
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 20px;
     
+}
+
+div > p {
+    margin: 5px 10px 20px 10px ;
+
+}
+
+.PrimaMasina {
+    padding: 4px 4px 40px 4px;
+    background: silver;
+    border: 1px solid black;
+    position: relative;
+}
+
+ .WIKI {
+    font-size: 13px;
+    position: absolute;
+    top:60.5%;
+
+}
+
+table, tr, td{
+    margin: 15px 20px 40px 15px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.MainBody {
+    position: relative;
+}
+
+#paragraf {
+    margin: 15px 10px
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+nav > a{
+    padding: 20px;
 }
